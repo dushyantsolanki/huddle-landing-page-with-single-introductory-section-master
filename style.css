@@ -82,12 +82,13 @@ button:hover {
 
 /*  Media Query Add  */
 
-@media (max-width: 376px) {
+@media (max-width: 560px) {
   body {
     height: 100vh;
     width: 100vw;
     background-image: url("/images/bg-mobile.svg");
   }
+
   #liiustration {
     height: 15rem;
     width: 20rem;
@@ -104,6 +105,7 @@ button:hover {
   }
   .box-2 {
     display: flex;
+    align-items: center;
     flex-direction: column;
     row-gap: 1rem;
     overflow: hidden;
